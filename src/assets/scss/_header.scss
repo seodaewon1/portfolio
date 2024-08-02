@@ -19,19 +19,13 @@
   border-bottom: 1px solid #fff;
 }
 
-#header {
-  .left {
-    display: flex;
-    align-items: center;
-    h1 {
-      margin-right: 20px;
-      margin-left: 20px;
-      a {
-        font-weight: 800;
-        font-size: 1.9vw;
-      }
-    }
-  }
+#header .left h1 {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-weight: 800;
+  font-size: 1.9vw;
 }
 
 #header ul {
