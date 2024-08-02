@@ -1,0 +1,30 @@
+#section1 {
+  width: 100vw;
+  padding: 7% 3%;
+}
+#section1 .desc {
+  font-size: 3vw;
+  line-height: 1.2;
+  font-family: "gmarket";
+  font-weight: 100;
+  letter-spacing: -0.2vw;
+}
+#section1 .text {
+  margin-top: 10%;
+  font-size: 26vw;
+  line-height: 0.8;
+  font-family: "Poppins";
+  font-weight: 800;
+  text-transform: uppercase;
+  position: relative;
+}
+
+#section1 .text .img {
+  position: absolute;
+  left: 50vw;
+  top: 10vw;
+  width: 40vw;
+  background-color: #000;
+  overflow: hidden;
+  border: 20px solid #2e85e7;
+}

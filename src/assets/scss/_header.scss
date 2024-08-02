@@ -1,0 +1,67 @@
+#header {
+  position: fixed;
+  left: 20px;
+  right: 20px;
+  top: 0;
+  width: 97vw;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #2e85e7;
+  font-family: "PPSupplyMono";
+  z-index: 1000;
+}
+#header.active {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+#header {
+  .left {
+    display: flex;
+    align-items: center;
+    h1 {
+      margin-right: 20px;
+      margin-left: 20px;
+      a {
+        font-weight: 800;
+        font-size: 1.9vw;
+      }
+    }
+  }
+}
+
+#header ul {
+  display: flex;
+}
+
+#header ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.1vw;
+}
+
+#header .right {
+  padding-right: 20px;
+  text-align: right;
+  font-size: 1.1vw;
+}
+.weather.active {
+  color: #fff;
+  border: 1px solid #fff;
+}
+.weather {
+  position: fixed;
+  top: 9%;
+  right: 1%;
+  border: 1px solid #2e85e7;
+  z-index: 10000;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  padding: 10px 20px;
+  font-family: "PPSupplyMono";
+  font-size: 1.1vw;
+}
