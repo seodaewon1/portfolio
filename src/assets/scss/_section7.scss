@@ -1,0 +1,36 @@
+#section7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 30px;
+  font-family: "PPSupplyMono";
+}
+
+#section7 {
+  position: relative;
+}
+
+#section7 .bottom {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#section7 .bottom ul {
+  display: inline-block;
+}
+
+#section7 .bottom li {
+  display: inline;
+}
+
+#section7 .bottom li a {
+  font-size: 16px;
+  text-emphasis-style: dot;
+}
+
+#section7 .bottom li a:hover {
+  text-emphasis-color: #000;
+}

@@ -1,0 +1,60 @@
+#section4 {
+  padding: 7% 5%;
+}
+
+#section4 .desc {
+  font-size: 3.8vw;
+  line-height: 1.2;
+  font-family: "iceJaram-Rg";
+  font-weight: 100;
+  letter-spacing: -0.2vw;
+}
+
+#section4 .section4__text {
+  margin-top: 10%;
+  font-size: 26vw;
+  line-height: 0.8;
+  font-family: "Poppins";
+  font-weight: 900;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+#section4 .list ul li {
+  border-bottom: 1px solid #2e85e7;
+  position: relative;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+
+#section4 .list li span {
+  margin-top: 20px;
+  display: block;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#section4 .list li em {
+  display: block;
+  font-weight: bold;
+}
+
+#section4 .list li strong {
+  font-family: "IropkeBatang";
+  display: block;
+}
+
+#section4 .list li a {
+  background-image: url(../img/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 20px;
+  background-size: 18%;
+}
+.list__codeview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
