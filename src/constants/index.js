@@ -150,7 +150,32 @@ export const PortList = [
   },
 ];
 
-export const PortCode = [{}];
+export const PortCode = [
+  {
+    title: "Quiz Game",
+    cate: "Javascript",
+    desc: "자바스크립트를 이용하여 제작한 퀴즈사이트입니다. 정보처리기능사 필기 100문제를 풀어 볼 수 있습니다.",
+    link: "https://seodaewon1.github.io/class2024/quiz/index.html",
+  },
+  {
+    title: "PHP BLOG",
+    cate: "PHP",
+    desc: "PHP를 활용하여 제작한 블로그 사이트입니다. PHP에 개념과 로그인, 게시판 기능을 구현하였습니다.",
+    link: "http://eodnjs1019.dothome.co.kr/",
+  },
+  {
+    title: "PYTHON",
+    cate: "MySQL 셋팅",
+    desc: "MySQL에 세팅법을 정리하여, MySQL에 사용법에 대해 숙지하고있습니다.",
+    link: "https://seodaewon1.github.io/class2024/mysql/index.html",
+  },
+  {
+    title: "PYTHON",
+    cate: "PYTHON CROLLING",
+    desc: "파이썬을 활용하여 음원차트 순위를 크롤링을 하여 데이터를 GITHUB ACTION을 통해 저장하였습니다.",
+    link: "https://github.com/seodaewon1/music-best",
+  },
+];
 
 export const PortSkill = [
   {

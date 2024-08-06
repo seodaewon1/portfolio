@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { PortCode } from "../constants";
 
 const Section4 = () => {
   useEffect(() => {
@@ -83,53 +84,16 @@ const Section4 = () => {
       </div>
       <div className="list">
         <ul>
-          <li>
-            <span>Quiz Game</span>
-            <em>Javascript</em>
-            <div className="list__codeview">
-              <strong>
-                자바스크립트를 이용하여 제작한 퀴즈사이트입니다. 정보처리기능사
-                필기 100문제를 풀어 볼 수 있습니다.
-              </strong>
-              <a href="https://seodaewon1.github.io/class2024/quiz/index.html">
-                CODEVIEW
-              </a>
-            </div>
-          </li>
-          <li>
-            <span>PHP BLOG</span>
-            <em>PHP</em>
-            <div className="list__codeview">
-              <strong>
-                PHP를 활용하여 제작한 블로그 사이트입니다. PHP에 개념과 로그인,
-                게시판 기능을 구현하였습니다.
-              </strong>
-              <a href="http://eodnjs1019.dothome.co.kr/">CODEVIEW</a>
-            </div>
-          </li>
-          <li>
-            <span>MySQL</span>
-            <em>MySQL 셋팅</em>
-            <div className="list__codeview">
-              <strong>
-                MySQL에 세팅법을 정리하여, MySQL에 사용법에 대해
-                숙지하고있습니다.
-              </strong>
-              <a href="https://seodaewon1.github.io/class2024/mysql/index.html">
-                CODEVIEW
-              </a>
-            </div>
-          </li>
-          <li>
-            <span>PYTHON</span>
-            <em>PYTHON CROLLING</em>
-            <div className="list__codeview">
-              <strong>
-                파이썬을 활용하여 크롤링을 통한 정보를 GITHUB에 저장하였습니다.
-              </strong>
-              <a href="https://github.com/seodaewon1/movie-chart">CODEVIEW</a>
-            </div>
-          </li>
+          {PortCode.map((code, key) => (
+            <li key={key}>
+              <span>{code.title}</span>
+              <em>{code.cate}</em>
+              <div className="list__codeview">
+                <strong>{code.desc}</strong>
+                <a href={code.link}>CODEVIEW</a>
+              </div>
+            </li>
+          ))}
         </ul>
       </div>
     </div>
