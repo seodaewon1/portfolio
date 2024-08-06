@@ -90,7 +90,9 @@ const Section4 = () => {
               <em>{code.cate}</em>
               <div className="list__codeview">
                 <strong>{code.desc}</strong>
-                <a href={code.link}>CODEVIEW</a>
+                <a href={code.link} target="_blank" rel="noopener noreferrer">
+                  CODEVIEW
+                </a>
               </div>
             </li>
           ))}
