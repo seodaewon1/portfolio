@@ -24,7 +24,7 @@ export default function Section3() {
         scrub: 1,
         start: "top 65.8px",
         end: () => "+=" + (totalWidth - window.innerWidth),
-        markers: true,
+        markers: false,
       },
     });
 
