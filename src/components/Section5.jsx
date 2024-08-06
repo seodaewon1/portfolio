@@ -31,19 +31,19 @@ export default function Section5() {
     });
 
     // section5에 ScrollTrigger 생성 (헤더 색상 변경용)
-    ScrollTrigger.create({
-      trigger: "#section5",
-      start: "top top",
-      end: "30% top",
-      onEnter: () => {
-        document.querySelector("#header").classList.add("white-theme");
-        document.querySelector(".weather").classList.add("white-theme");
-      },
-      onLeaveBack: () => {
-        document.querySelector("#header").classList.remove("white-theme");
-        document.querySelector(".weather").classList.remove("white-theme");
-      },
-    });
+    // ScrollTrigger.create({
+    //   trigger: "#section5",
+    //   start: "top top",
+    //   end: "30% top",
+    //   onEnter: () => {
+    //     document.querySelector("#header").classList.add("white-theme");
+    //     document.querySelector(".weather").classList.add("white-theme");
+    //   },
+    //   onLeaveBack: () => {
+    //     document.querySelector("#header").classList.remove("white-theme");
+    //     document.querySelector(".weather").classList.remove("white-theme");
+    //   },
+    // });
 
     // 퍼센트 애니메이션을 dt 요소에 연결하기
     const skilldata = document.querySelectorAll("dt");

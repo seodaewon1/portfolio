@@ -55,16 +55,6 @@ export const UserProvider = ({ children }) => {
     updateElapsedTime(); // 초기 로드 시 경과 시간 업데이트
     setInterval(updateElapsedTime, 1000); // 1초마다 경과 시간 업데이트
 
-    document.querySelectorAll("header ul li a").forEach((anchor) => {
-      anchor.addEventListener("click", function (e) {
-        e.preventDefault();
-        gsap.to(window, {
-          duration: 1,
-          scrollTo: this.getAttribute("href"),
-        });
-      });
-    });
-
     gsap.to(".weather", {
       ease: "none",
       scrollTrigger: {
