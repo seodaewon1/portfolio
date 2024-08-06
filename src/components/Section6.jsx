@@ -120,7 +120,7 @@ export default function Section6() {
 
             <div class="comment">
               <span class="title">
-                <em>나도 댓글 쓰기</em>
+                <em>댓글 쓰기</em>
               </span>
               <div class="cont comment__form">
                 <form action="/" method="POST">
@@ -134,7 +134,7 @@ export default function Section6() {
                         type="text"
                         name="title"
                         id="youName"
-                        placeholder="누구니?"
+                        placeholder="이름"
                       />
                       <label htmlFor="youName" className="required blind">
                         비밀번호
