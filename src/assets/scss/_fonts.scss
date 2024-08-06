@@ -26,7 +26,14 @@
     url("../font/supply/PPSupplyMono-Regular.woff2") format("woff");
   font-display: swap;
 }
-
+@font-face {
+  font-family: "PPSupplyMono";
+  font-weight: 100;
+  font-style: normal;
+  src: url("../font/supply/PPSupplyMono-Ultralight.woff2") format("woff2"),
+    url("../font/supply/PPSupplyMono-Ultralight.woff") format("woff");
+  font-display: swap;
+}
 @font-face {
   font-family: "PPSupplySans";
   font-weight: 500;

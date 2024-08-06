@@ -36,9 +36,19 @@
   left: 50vw;
   top: 50vh;
   transform: translate(-50%, -50%);
+
+  z-index: 100;
+}
+#section2 .about2 .img1,
+#section2 .about2 .img2,
+#section2 .about2 .img3,
+#section2 .about2 .img4,
+#section2 .about2 .img5,
+#section2 .about2 .img6,
+#section2 .about2 .img7,
+#section2 .about2 .img8 {
   width: 13vw;
   height: 16vw;
-  z-index: 100;
 }
 
 #section2 .about2 img {

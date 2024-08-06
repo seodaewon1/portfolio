@@ -133,8 +133,8 @@ const Section2 = () => {
       trigger: "#section2",
       pin: true,
       start: "top top",
-      end: "+=10000",
-      scrub: 2,
+      end: "+=12000",
+      scrub: 1,
       markers: false,
     });
   }, []);

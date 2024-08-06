@@ -12,7 +12,7 @@ export default function Section3() {
     let totalWidth = 0;
 
     sections.forEach((section) => {
-      totalWidth += section.offsetWidth + 20; // Add margin-right to total width
+      totalWidth += section.offsetWidth + 20;
     });
 
     gsap.to("#section3 .port-wrap", {
@@ -22,13 +22,12 @@ export default function Section3() {
         trigger: "#section3",
         pin: true,
         scrub: 1,
-        start: "top top", // Adjusted start position
+        start: "top 65.8px",
         end: () => "+=" + (totalWidth - window.innerWidth),
-        markers: true, // Enable markers for debugging
+        markers: true,
       },
     });
 
-    // Cleanup ScrollTrigger instances on component unmount
     return () => {
       ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
     };
