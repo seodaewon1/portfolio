@@ -9,6 +9,7 @@ import Section6 from "../components/Section6";
 import Header from "../components/Header";
 import Intro from "../components/Intro";
 import { UserProvider } from "../context/userContext";
+import Section7 from "../components/Section7";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
         <Section4 />
         <Section5 />
         <Section6 />
+        <Section7 />
       </div>
     </UserProvider>
   );
