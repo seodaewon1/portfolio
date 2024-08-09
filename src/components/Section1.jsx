@@ -23,7 +23,7 @@ const Section1 = () => {
 
     const targets = gsap.utils.toArray(".split");
     let SplitClient = new SplitType(targets, {
-      type: "lines, words, chars",
+      type: "words, chars",
     });
 
     let chars = SplitClient.chars;
